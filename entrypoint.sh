@@ -1,14 +1,9 @@
 #!/bin/sh
 
-# Global variables
-DIR_CONFIG="/etc/v2ray"
-DIR_RUNTIME="/usr/bin"
-DIR_TMP="$(mktemp -d)"
-
-ID=d3546649-99e9-4b92-8380-e84b05c0a222
-AID=64
-WSPATH=/
+UUID=13ce52b2-b3b6-4b20-9cf0-d6b67919bb64
+WSPATH=/app
 PORT=80
+
 
 # Write V2Ray configuration
 cat << EOF > ${DIR_TMP}/heroku.json
